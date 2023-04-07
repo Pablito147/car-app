@@ -1,8 +1,8 @@
-import { createSlice } from "reduxjs/toolkit";
+import { createSlice } from "@reduxjs/toolkit";
 
 const formSlice = createSlice({
   name: "form",
-  initialSate: {
+  initialState: {
     name: "",
     cost: 0,
   },
